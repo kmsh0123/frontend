@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Montserrat Alternates, sans-serif;
+}
+
+.active {
+    color: #ea4227;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--red);
+    transform-origin: 0%;
+  }
